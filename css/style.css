@@ -5,6 +5,8 @@ body{
 }
 
 .page-header{
+    display: flex;
+    justify-content: space-between;
     background-color: yellow;
     height: 20%;
 }
@@ -13,6 +15,15 @@ body{
     display: flex;
     justify-content: space-between;
     height: 60%;
+}
+
+.main-nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li{
+    margin-left: 10px;
 }
 
 article{

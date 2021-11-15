@@ -1,0 +1,31 @@
+body{
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.page-header{
+    background-color: yellow;
+    height: 20%;
+}
+
+.diary-contents{
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
+}
+
+article{
+    background-color: blue;
+    width: 75%;
+}
+
+aside{
+    background-color: green;
+    width: 25%;
+}
+
+footer{
+    background-color: orange;
+    height: 20%;
+}
